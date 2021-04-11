@@ -5,9 +5,6 @@ class User {
     this.varsta = varsta
     this.hobbies = hobbies
   }
-  speak(bla) {
-      console.log(bla)
-  }
 }
 
 const ale = new User('Ivan', 'Alexandra', 37, ['programming', 'gaming', 'hikking'])
@@ -63,3 +60,6 @@ console.log("\n\n\nPrintam toate prenumele utilizatorilor:")
 for(i in users) {
   console.log(`___ ${users[i].prenume} ___`)
 }
+
+
+console.log("=============================================================")
